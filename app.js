@@ -1,5 +1,5 @@
 const express = require('express')
-const port = 7000
+const port = 7000 || process.env.NODE_ENV
 const queries = require('./queries')
 const app = express()
 
