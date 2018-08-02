@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "?????????"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,14 @@
     "knex": "^0.15.2",
     "morgan": "^1.9.0",
     "pg": "^7.4.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimhermosillo/express-knex-warmup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimhermosillo/express-knex-warmup/issues"
+  },
+  "homepage": "https://github.com/kimhermosillo/express-knex-warmup#readme"
 }
